@@ -1,0 +1,59 @@
+
+/*darkgray : #272727
+  lightgray : #747474
+  orange : #FF652F
+  yellow : #FFE400
+  green : #14A76C*/
+
+h1 {
+	color: #272727;
+}
+.clock {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 10px solid #14A76C;
+	padding: 10px;
+	background-color: #272727;
+	margin: auto;
+}
+
+.time{
+	text-align: center;
+}
+
+
+.hand {
+	border: 1px solid #FFE400;
+	width: 100px;
+	transform: rotate(90deg);
+	transform-origin: 100%;
+}
+
+.face {
+	padding-top: 50%;
+
+}
+
+
+.h {
+	border: 3px solid #FFE400;
+	margin-left: 35px;
+	width: 65px;
+	background-color: #FFE400;
+	border-radius: 50px;
+
+}
+
+.m {
+	border: 2px solid #FFE400;
+	margin-left: 10px;
+	width: 90px;
+	border-radius: 50px;
+}
+
+.s {
+	border-radius: 50px;
+	border: 1px solid #FF652F;
+}
+
